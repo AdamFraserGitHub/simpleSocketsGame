@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <style>
+            html,body {
+                margin: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <audio id="bounce">
+            <source src="bounce.ogg" type="audio/ogg">
+            Your browser does not support the audio element (idk how but it doesn't).
+        </audio>
+        <canvas id='gameCanvas' width='1000' height='600' style='border-style: solid;'></canvas>
+    </body>
+
+    <script src='game1.js'></script>
+    <script src='/socket.io/socket.io.js'></script>
+    <script src='gameSocketHandler.js'></script>
+</html>
